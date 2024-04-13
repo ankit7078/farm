@@ -1,0 +1,32 @@
+body {
+  .home {
+    margin-left: 5%;
+    .home1 {
+      margin: 0% 4%;
+    }
+  }
+  .free {
+    margin: 0% 6%;
+    border-radius: 33px;
+    background: #c34d29a8;
+    .free-quote {
+      border: none;
+      border-radius: 45px;
+      color: white;
+    }
+  }
+  .B {
+    .professional {
+      display: inline-block;
+      width: 40%;
+      margin: 3%;
+      span {
+        color: green;
+      }
+    }
+    .inventore {
+      display: inline-block;
+      width: 40%;
+    }
+  }
+}
