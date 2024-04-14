@@ -26,5 +26,110 @@ body .B .inventore {
   display: inline-block;
   width: 40%;
 }
+body .C .landscaping {
+  display: inline-block;
+  width: 50%;
+}
+body .C .landscaping1 {
+  font-size: 219%;
+  background: green;
+  padding: 4%;
+  margin: 0% 8% 0% 17%;
+  border-radius: 12px;
+}
+body .D {
+  background-color: aliceblue;
+}
+body .D .photo {
+  display: inline-block;
+  width: 38%;
+  margin: 3%;
+}
+body .D .photo .photo1 {
+  display: inline-block;
+  width: 98%;
+}
+body .D .photo .photo1:hover {
+  border: 2px solid;
+  transition: 0.2s;
+}
+body .D .our {
+  display: inline-block;
+  width: 38%;
+  margin: 3%;
+}
+body .F {
+  background-color: aliceblue;
+}
+body .F .agriculture1 {
+  width: 1264px;
+  height: 344px;
+}
+body .F .agriculture {
+  margin: -23% 9%;
+  width: 32%;
+}
+body .F .agriculture h1 {
+  line-height: 1;
+  font-weight: 800;
+  color: whitesmoke;
+}
+body .F .agriculture h1 span {
+  color: green;
+}
+body .F .agriculture p {
+  color: white;
+}
+body .F .agriculture #amin .greem .anuj {
+  position: relative;
+  background-color: darkgray;
+  width: 10rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+}
+body .F .agriculture #amin .greem .anuj:hover {
+  background-color: red;
+  font-size: large;
+  color: white;
+  transition: transform 13s ease;
+  transform: scale(1, 1);
+}
+body .F .agriculture #amin .greem .anuj::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.175rem;
+  left: 0;
+  bottom: 0;
+  background: green;
+}
+body .F .agriculture #amin .greem .btn-center::after {
+  transform: scale(0, 1);
+  transition: transform 0.3s ease;
+}
+body .F .agriculture #amin .greem .btn-center:hover::after {
+  transform: scale(1, 1);
+}
+body .r .aman {
+  background: green;
+  border: 2px solid black;
+  font-size: 89%;
+  font-weight: 800;
+  color: white;
+}
+body .r .aman:hover {
+  background-image: url(D:/project/projects-front/project3/images/images.jpeg);
+  border: 2px solid rgb(99, 99, 202);
+}
+body .t {
+  text-align: center;
+  margin-top: 7%;
+}
+body .t h1 {
+  text-decoration: underline;
+}
 
 /*# sourceMappingURL=style.css.map */
