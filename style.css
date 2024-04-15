@@ -1,135 +1,628 @@
-body .home {
-  margin-left: 5%;
+@media screen and (max-width: 480px) {
+  body #preloader {
+    background: #ffffff url(../project3/images/preloader.gif) no-repeat fixed center center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-size: 25%;
+  }
+  body .logo-farm {
+    width: 5%;
+  }
+  body .home {
+    margin-left: 5%;
+  }
+  body .home .home1 {
+    margin: 0% 4%;
+  }
+  body .free {
+    margin: 0% 6%;
+    border-radius: 33px;
+    background: rgba(195, 77, 41, 0.6588235294);
+  }
+  body .free .free-quote {
+    border: none;
+    border-radius: 45px;
+    color: white;
+  }
+  body .u .professional {
+    display: inline-block;
+    width: 40%;
+    margin: 3%;
+  }
+  body .u .professional span {
+    color: green;
+  }
+  body .u .inventore {
+    display: inline-block;
+    width: 40%;
+  }
+  body .C .landscaping {
+    display: inline-block;
+    width: 50%;
+  }
+  body .C .landscaping1 {
+    font-size: 219%;
+    background-color: rgb(38, 234, 175);
+    color: white;
+    padding: 4%;
+    margin: 0% 8% 0% 17%;
+    border-radius: 12px;
+  }
+  body .D {
+    background-color: aliceblue;
+  }
+  body .D .photo {
+    display: inline-block;
+    width: 38%;
+    margin: 3%;
+  }
+  body .D .photo .photo1 {
+    display: inline-block;
+    width: 98%;
+  }
+  body .D .photo .photo1:hover {
+    border: 2px solid;
+    transition: 0.2s;
+  }
+  body .D .our {
+    display: inline-block;
+    width: 38%;
+    margin: 3%;
+  }
+  body .F {
+    background-color: aliceblue;
+  }
+  body .F .agriculture1 {
+    width: 100%;
+    height: 344px;
+  }
+  body .F .agriculture {
+    margin: -85% 9% 0 9%;
+    width: 100%;
+  }
+  body .F .agriculture h1 {
+    line-height: 1;
+    font-weight: 800;
+    color: whitesmoke;
+  }
+  body .F .agriculture h1 span {
+    color: green;
+  }
+  body .F .agriculture p {
+    color: white;
+  }
+  body .F .agriculture .E {
+    width: 86%;
+  }
+  body .F .agriculture #amin .greem .anuj {
+    position: relative;
+    background-color: rgb(205, 242, 83);
+    width: 10rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+  }
+  body .F .agriculture #amin .greem .anuj:hover {
+    background-color: brown;
+    font-size: large;
+    color: white;
+    transition: transform 13s ease;
+    transform: scale(1, 1);
+  }
+  body .F .agriculture #amin .greem .anuj::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.175rem;
+    left: 0;
+    bottom: 0;
+    background: green;
+  }
+  body .F .agriculture #amin .greem .btn-center::after {
+    transform: scale(0, 1);
+    transition: transform 0.3s ease;
+  }
+  body .F .agriculture #amin .greem .btn-center:hover::after {
+    transform: scale(1, 1);
+  }
+  body .r .aman {
+    margin: 1% 4%;
+    background-color: rgba(245, 244, 244, 0.801);
+    font-size: 89%;
+    font-weight: 800;
+    color: black;
+  }
+  body .r .aman:hover {
+    background-color: aliceblue;
+    color: black;
+  }
+  body .r .aman ul li {
+    font-weight: 400;
+  }
+  body .t {
+    background-color: #605e5e;
+    text-align: center;
+    margin-top: 7%;
+  }
+  body .t .ankit5 {
+    width: 25%;
+    color: white;
+  }
+  body .t .ankit5 h5 {
+    margin-top: 20%;
+    font-size: 175%;
+    color: white;
+    margin-bottom: 13%;
+  }
+  body .t .ankit5 p {
+    color: white;
+    text-align: left;
+    margin-top: 12%;
+  }
+  body .t .ankit5 .pathri {
+    padding-left: 18%;
+    margin: 2%;
+  }
+  body .service {
+    background-image: url(D:/project/projects-front/project3/images/wheat1-800x445.webp);
+    height: 100vh;
+    background-size: cover;
+  }
+  body .service h1 {
+    text-align: center;
+    padding-top: 5%;
+  }
+  body .service h5 {
+    padding: 5% 5%;
+  }
+  body .service .gahu {
+    width: 25%;
+    border: 2px solid;
+    border-radius: 45px;
+    margin-left: 4%;
+  }
+  body .vinit h3 {
+    text-align: center;
+    padding: 3% 24%;
+    color: rgb(187, 229, 35);
+  }
+  body .vinit1 {
+    background-color: rgba(243, 242, 242, 0.9058823529);
+    height: 400px;
+  }
+  body .vinit1 h1 {
+    text-align: center;
+    color: rgb(37, 241, 10);
+  }
+  body .vinit6 {
+    background-color: #605e5e;
+    text-align: center;
+  }
+  body .vinit6 .ankit5 {
+    width: 25%;
+    color: white;
+  }
+  body .vinit6 .ankit5 h5 {
+    margin-top: 20%;
+    font-size: 175%;
+    color: white;
+    margin-bottom: 13%;
+  }
+  body .vinit6 .ankit5 p {
+    color: white;
+    text-align: left;
+    margin-top: 12%;
+  }
+  body .vinit6 .ankit5 .pathri {
+    padding-left: 18%;
+    margin: 2%;
+  }
+  body .PRODUCT {
+    background-image: url("D:/project/projects-front/project3/images/231010_HOME_1_photo_3840x2160px@1920w.ffb19a5b.webp");
+    height: 100vh;
+    background-size: cover;
+  }
+  body .PRODUCT h1 {
+    padding: 0% 14% 0% 5%;
+    text-align: center;
+    color: #ffffff;
+  }
+  body .PRODUCT p {
+    padding: 0% 14% 0% 5%;
+    text-align: center;
+    color: #ffffff;
+  }
+  body .PRODUCT h5 {
+    padding: 9% 14% 0% 5%;
+    color: #ffffff;
+    text-align: center;
+  }
+  body .service-ankit {
+    background-image: url("D:/project/projects-front/project3/images/360_F_268505602_SzmLnAYjXCgqTUhZj6slNeKDw7r9S4Tl.jpg");
+    height: 100vh;
+    background-size: cover;
+  }
+  body .service-ankit h1 {
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 5%;
+    font-weight: 400;
+  }
+  body .service-ankit .ankitverma {
+    width: 30%;
+    padding-left: 6%;
+    display: inline-block;
+  }
+  body .service-ankit .ankitverma1 {
+    width: 70%;
+    display: inline-block;
+    float: right;
+  }
+  body .service-ankit h5 {
+    padding: 5% 5%;
+    font-weight: 400 !important;
+  }
+  body .service-ankit .gahu {
+    display: flex;
+    width: 44%;
+    border: 2px solid green;
+    border-radius: 45px;
+    background-color: #f6f6f6;
+    margin: 5%;
+  }
+  body .vinit h3 {
+    text-align: center;
+    padding: 3% 24%;
+    color: rgb(187, 229, 35);
+  }
+  body .vinit1 {
+    background-color: rgba(243, 242, 242, 0.9058823529);
+    height: 400px;
+  }
+  body .vinit1 h1 {
+    text-align: center;
+    color: rgb(37, 241, 10);
+  }
+  body .vinit6 {
+    background-color: #605e5e;
+    text-align: center;
+  }
+  body .vinit6 .ankit5 {
+    width: 25%;
+    color: white;
+  }
+  body .vinit6 .ankit5 h5 {
+    margin-top: 20%;
+    font-size: 175%;
+    color: white;
+    margin-bottom: 13%;
+  }
+  body .vinit6 .ankit5 p {
+    color: white;
+    text-align: left;
+    margin-top: 12%;
+  }
+  body .vinit6 .ankit5 .pathri {
+    padding-left: 18%;
+    margin: 2%;
+  }
 }
-body .home .home1 {
-  margin: 0% 4%;
-}
-body .free {
-  margin: 0% 6%;
-  border-radius: 33px;
-  background: rgba(195, 77, 41, 0.6588235294);
-}
-body .free .free-quote {
-  border: none;
-  border-radius: 45px;
-  color: white;
-}
-body .B .professional {
-  display: inline-block;
-  width: 40%;
-  margin: 3%;
-}
-body .B .professional span {
-  color: green;
-}
-body .B .inventore {
-  display: inline-block;
-  width: 40%;
-}
-body .C .landscaping {
-  display: inline-block;
-  width: 50%;
-}
-body .C .landscaping1 {
-  font-size: 219%;
-  background: green;
-  padding: 4%;
-  margin: 0% 8% 0% 17%;
-  border-radius: 12px;
-}
-body .D {
-  background-color: aliceblue;
-}
-body .D .photo {
-  display: inline-block;
-  width: 38%;
-  margin: 3%;
-}
-body .D .photo .photo1 {
-  display: inline-block;
-  width: 98%;
-}
-body .D .photo .photo1:hover {
-  border: 2px solid;
-  transition: 0.2s;
-}
-body .D .our {
-  display: inline-block;
-  width: 38%;
-  margin: 3%;
-}
-body .F {
-  background-color: aliceblue;
-}
-body .F .agriculture1 {
-  width: 1264px;
-  height: 344px;
-}
-body .F .agriculture {
-  margin: -23% 9%;
-  width: 32%;
-}
-body .F .agriculture h1 {
-  line-height: 1;
-  font-weight: 800;
-  color: whitesmoke;
-}
-body .F .agriculture h1 span {
-  color: green;
-}
-body .F .agriculture p {
-  color: white;
-}
-body .F .agriculture #amin .greem .anuj {
-  position: relative;
-  background-color: darkgray;
-  width: 10rem;
-  margin-bottom: 2rem;
-  padding: 1rem;
-  border: none;
-  outline: none;
-  font-size: 1.2rem;
-}
-body .F .agriculture #amin .greem .anuj:hover {
-  background-color: red;
-  font-size: large;
-  color: white;
-  transition: transform 13s ease;
-  transform: scale(1, 1);
-}
-body .F .agriculture #amin .greem .anuj::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 0.175rem;
-  left: 0;
-  bottom: 0;
-  background: green;
-}
-body .F .agriculture #amin .greem .btn-center::after {
-  transform: scale(0, 1);
-  transition: transform 0.3s ease;
-}
-body .F .agriculture #amin .greem .btn-center:hover::after {
-  transform: scale(1, 1);
-}
-body .r .aman {
-  background: green;
-  border: 2px solid black;
-  font-size: 89%;
-  font-weight: 800;
-  color: white;
-}
-body .r .aman:hover {
-  background-image: url(D:/project/projects-front/project3/images/images.jpeg);
-  border: 2px solid rgb(99, 99, 202);
-}
-body .t {
-  text-align: center;
-  margin-top: 7%;
-}
-body .t h1 {
-  text-decoration: underline;
+@media screen and (min-width: 481px) {
+  body #preloader {
+    background: #ffffff url(../project3/images/preloader.gif) no-repeat fixed center center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-size: 25%;
+  }
+  body .logo-farm {
+    width: 5%;
+  }
+  body .home {
+    margin-left: 5%;
+  }
+  body .home .home1 {
+    margin: 0% 4%;
+  }
+  body .free {
+    margin: 0% 6%;
+    border-radius: 33px;
+    background: rgba(195, 77, 41, 0.6588235294);
+  }
+  body .free .free-quote {
+    border: none;
+    border-radius: 45px;
+    color: white;
+  }
+  body .u .professional {
+    display: inline-block;
+    width: 40%;
+    margin: 3%;
+  }
+  body .u .professional span {
+    color: green;
+  }
+  body .u .inventore {
+    display: inline-block;
+    width: 40%;
+  }
+  body .C .landscaping {
+    display: inline-block;
+    width: 50%;
+  }
+  body .C .landscaping1 {
+    font-size: 219%;
+    background-color: rgb(38, 234, 175);
+    color: white;
+    padding: 4%;
+    margin: 0% 8% 0% 17%;
+    border-radius: 12px;
+  }
+  body .D {
+    background-color: aliceblue;
+  }
+  body .D .photo {
+    display: inline-block;
+    width: 38%;
+    margin: 3%;
+  }
+  body .D .photo .photo1 {
+    display: inline-block;
+    width: 98%;
+  }
+  body .D .photo .photo1:hover {
+    border: 2px solid;
+    transition: 0.2s;
+  }
+  body .D .our {
+    display: inline-block;
+    width: 38%;
+    margin: 3%;
+  }
+  body .F {
+    background-color: aliceblue;
+  }
+  body .F .agriculture1 {
+    width: 100%;
+    height: 344px;
+  }
+  body .F .agriculture {
+    margin: -23% 9%;
+    width: 32%;
+  }
+  body .F .agriculture h1 {
+    line-height: 1;
+    font-weight: 800;
+    color: whitesmoke;
+  }
+  body .F .agriculture h1 span {
+    color: green;
+  }
+  body .F .agriculture p {
+    color: white;
+  }
+  body .F .agriculture .E {
+    width: 86%;
+  }
+  body .F .agriculture #amin .greem .anuj {
+    position: relative;
+    background-color: rgb(205, 242, 83);
+    width: 10rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+  }
+  body .F .agriculture #amin .greem .anuj:hover {
+    background-color: brown;
+    font-size: large;
+    color: white;
+    transition: transform 13s ease;
+    transform: scale(1, 1);
+  }
+  body .F .agriculture #amin .greem .anuj::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.175rem;
+    left: 0;
+    bottom: 0;
+    background: green;
+  }
+  body .F .agriculture #amin .greem .btn-center::after {
+    transform: scale(0, 1);
+    transition: transform 0.3s ease;
+  }
+  body .F .agriculture #amin .greem .btn-center:hover::after {
+    transform: scale(1, 1);
+  }
+  body .r .aman {
+    margin: 1% 4%;
+    background-color: rgba(245, 244, 244, 0.801);
+    font-size: 89%;
+    font-weight: 800;
+    color: black;
+  }
+  body .r .aman:hover {
+    background-color: aliceblue;
+    color: black;
+  }
+  body .r .aman ul li {
+    font-weight: 400;
+  }
+  body .t {
+    background-color: #605e5e;
+    text-align: center;
+    margin-top: 7%;
+  }
+  body .t .ankit5 {
+    width: 25%;
+    color: white;
+  }
+  body .t .ankit5 h5 {
+    margin-top: 20%;
+    font-size: 175%;
+    color: white;
+    margin-bottom: 13%;
+  }
+  body .t .ankit5 p {
+    color: white;
+    text-align: left;
+    margin-top: 12%;
+  }
+  body .t .ankit5 .pathri {
+    padding-left: 18%;
+    margin: 2%;
+  }
+  body .service {
+    background-image: url(D:/project/projects-front/project3/images/wheat1-800x445.webp);
+    height: 100vh;
+    background-size: cover;
+  }
+  body .service h1 {
+    text-align: center;
+    padding-top: 5%;
+  }
+  body .service h5 {
+    padding: 5% 5%;
+  }
+  body .service .gahu {
+    width: 25%;
+    border: 2px solid;
+    border-radius: 45px;
+    margin-left: 4%;
+  }
+  body .vinit h3 {
+    text-align: center;
+    padding: 3% 24%;
+    color: rgb(187, 229, 35);
+  }
+  body .vinit1 {
+    background-color: rgba(243, 242, 242, 0.9058823529);
+    height: 400px;
+  }
+  body .vinit1 h1 {
+    text-align: center;
+    color: rgb(37, 241, 10);
+  }
+  body .vinit6 {
+    background-color: #605e5e;
+    text-align: center;
+  }
+  body .vinit6 .ankit5 {
+    width: 25%;
+    color: white;
+  }
+  body .vinit6 .ankit5 h5 {
+    margin-top: 20%;
+    font-size: 175%;
+    color: white;
+    margin-bottom: 13%;
+  }
+  body .vinit6 .ankit5 p {
+    color: white;
+    text-align: left;
+    margin-top: 12%;
+  }
+  body .vinit6 .ankit5 .pathri {
+    padding-left: 18%;
+    margin: 2%;
+  }
+  body .PRODUCT {
+    background-image: url("D:/project/projects-front/project3/images/231010_HOME_1_photo_3840x2160px@1920w.ffb19a5b.webp");
+    height: 100vh;
+    background-size: cover;
+  }
+  body .PRODUCT h1 {
+    padding: 0% 14% 0% 5%;
+    text-align: center;
+    color: #ffffff;
+  }
+  body .PRODUCT p {
+    padding: 0% 14% 0% 5%;
+    text-align: center;
+    color: #ffffff;
+  }
+  body .PRODUCT h5 {
+    padding: 9% 14% 0% 5%;
+    color: #ffffff;
+    text-align: center;
+  }
+  body .service-ankit {
+    background-image: url("D:/project/projects-front/project3/images/360_F_268505602_SzmLnAYjXCgqTUhZj6slNeKDw7r9S4Tl.jpg");
+    height: 100vh;
+    background-size: cover;
+  }
+  body .service-ankit h1 {
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 5%;
+    font-weight: 400;
+  }
+  body .service-ankit .ankitverma {
+    width: 30%;
+    padding-left: 6%;
+    display: inline-block;
+  }
+  body .service-ankit .ankitverma1 {
+    width: 70%;
+    display: inline-block;
+    float: right;
+  }
+  body .service-ankit h5 {
+    padding: 5% 5%;
+    font-weight: 400 !important;
+  }
+  body .service-ankit .gahu {
+    display: flex;
+    width: 44%;
+    border: 2px solid green;
+    border-radius: 45px;
+    background-color: #f6f6f6;
+    margin: 5%;
+  }
+  body .vinit h3 {
+    text-align: center;
+    padding: 3% 24%;
+    color: rgb(187, 229, 35);
+  }
+  body .vinit1 {
+    background-color: rgba(243, 242, 242, 0.9058823529);
+    height: 400px;
+  }
+  body .vinit1 h1 {
+    text-align: center;
+    color: rgb(37, 241, 10);
+  }
+  body .vinit6 {
+    background-color: #605e5e;
+    text-align: center;
+  }
+  body .vinit6 .ankit5 {
+    width: 25%;
+    color: white;
+  }
+  body .vinit6 .ankit5 h5 {
+    margin-top: 20%;
+    font-size: 175%;
+    color: white;
+    margin-bottom: 13%;
+  }
+  body .vinit6 .ankit5 p {
+    color: white;
+    text-align: left;
+    margin-top: 12%;
+  }
+  body .vinit6 .ankit5 .pathri {
+    padding-left: 18%;
+    margin: 2%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
